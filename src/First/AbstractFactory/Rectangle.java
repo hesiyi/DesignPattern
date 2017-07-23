@@ -1,8 +1,6 @@
 package First.AbstractFactory;
 
-import First.Factory.Shape;
-
-public class Rectangle implements  Shape {
+public class Rectangle implements  First.AbstractFactory.Shape {
 
 	@Override
 	public void draw() {
